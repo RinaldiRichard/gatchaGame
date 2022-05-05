@@ -1,0 +1,29 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(127, 225, 255);
+  margin: 2em 0;
+}
+body p{
+    margin: 2em 0;
+}
+.divBtnIndex {
+  margin: 5em 0;
+  justify-content: space-evenly;
+}
+.btnAccess,
+.btnCollection {
+  margin: 0 4em;
+  padding: 1em;
+  font-size: 20px;
+  font-weight: bold;
+}
